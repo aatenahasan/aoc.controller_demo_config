@@ -6,5 +6,5 @@
   gather_facts: false
   tasks:
     - name: Run Controller Configuration Role
-      ansible.builtin.import_role:
+      ansible.builtin.import_rolje:
         name: lab.controller_demo_config.controller
